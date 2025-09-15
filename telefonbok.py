@@ -11,4 +11,11 @@ Person2 = {"navn":"Marcus", "nummer": 14767883}
 telefonbok.append(Person1)
 telefonbok.append(Person2)
 
+# lager en funskjon
+def vis_alle():
+    for person in telefonbok:
+        print(f"navn: {person["navn"]}, nummer: {person["nummer"]}")
+
+# vi tilkaller løkken
+vis_alle() 
 
