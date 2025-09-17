@@ -19,3 +19,19 @@ def vis_alle():
 # vi tilkaller løkken
 vis_alle() 
 
+# vi lager en tli funksjon
+def legg_til():
+    input
+
+# ber brukeren skrive inn navn og nummer
+navn = input("Skriv inn navn: ")
+nummer = input(" skriv inn nummmer: ")
+
+# lager en ordbok med infoen
+ny_persjon = {"navn": navn, "nummer": nummer}
+
+# legger ordboken inn i lista telefonbok
+telefonbok.append(ny_persjon)
+
+# viser en melding om at personen ble lagt til.
+print(f"{navn} ble lagt til i telefonboka.")
